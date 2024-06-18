@@ -44,5 +44,16 @@ const textoResultado =document.querySelector('.caixa-resultado');
             "Curupira"
         ] 
     }]
+
+let atual  = 0;
+let peguntaAtual;
+
+function mostraPergunta(){
+perguntaAtual =  perguntas[atual];
+caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
+mostraPergunta();
+
   
   
